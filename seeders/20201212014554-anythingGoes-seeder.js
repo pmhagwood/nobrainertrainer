@@ -3,7 +3,7 @@
 module.exports = {
   up: async (queryInterface, Sequelize) => {
  
-      await queryInterface.bulkInsert('relax', [{
+      await queryInterface.bulkInsert('anythingGoes', [{
         name: 'Don not worry about anything. Go out and have a good time.',
         createdAt: new date(),
         updatedAt: new Date()
